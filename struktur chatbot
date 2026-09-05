@@ -1,0 +1,30 @@
+C:\localchat
+│
+├── venv
+│
+├── manage.py
+│
+├── config
+│   ├── settings.py
+│   ├── urls.py
+│   └── ...
+│
+└── chat
+    ├── admin.py
+    ├── apps.py
+    ├── models.py
+    ├── views.py
+    └── ...
+                  BROWSER
+                     │
+                     ▼
+                 DJANGO
+                /      \
+               /        \
+              ▼          ▼
+           MYSQL       OLLAMA
+             │            │
+             │            ▼
+             │        gemma 3:26B
+             │            │
+             └────────────┘
